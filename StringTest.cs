@@ -40,7 +40,7 @@ namespace CiCdgrupp
             string result = stringM.ToLower(originString);
 
             // then
-            Assert.Eqaul(expectedResult, result);
+            Assert.Equal(expectedResult, result);
 
         }
     }
