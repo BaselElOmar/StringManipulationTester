@@ -3,19 +3,27 @@ using System.Security.Cryptography.X509Certificates;
 using Xunit;
 
 namespace CiCdgrupp
-
-public class StringsManipulation
 {
 
-    string originString = "Hello World";
-
-
-    public string TUpper(string origingstring)
+    public class StringsManipulation
     {
-        origingstring = origingstring.ToUpper();
-        return originString;
+
+
+
+
+        public string ToUpper(string input)
+        {
+
+            return input.ToUpper();
+        }
+
+        public string ToLower(string originString)
+        {
+            originString = originString.ToLower();
+            return originString;
+        }
+
+
+
     }
-
-
-
 }

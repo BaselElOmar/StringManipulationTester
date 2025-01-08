@@ -2,13 +2,29 @@
 
 
 
-namespace CiCdgrupp;
-
-public class StringTest
+namespace CiCdgrupp
 {
-    [Fact]
-    public void Test()
-    {
 
+    public class StringTest
+    {
+        [Fact]
+        public void TestToUpper()
+        {
+            //given
+            StringsManipulation stringM = new();
+
+            string originString = "Hello World";
+            string expectedResult = "HELLO WORLD";
+
+            //when
+
+
+            string result = stringM.ToUpper(originString);
+
+
+            //Then
+            Assert.Equal(expectedResult, result);
+
+        }
     }
 }
