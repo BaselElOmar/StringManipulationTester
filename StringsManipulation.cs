@@ -12,6 +12,7 @@ namespace CiCdgrupp
         {
 
             return input.ToUpper();
+       // tester
         }
 
         public string ToLower(string input)
