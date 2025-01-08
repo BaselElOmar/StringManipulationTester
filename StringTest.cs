@@ -34,7 +34,7 @@ namespace CiCdgrupp
             StringsManipulation stringM = new();
 
             string originString = "Hello World";
-            string expectedResult = "hello World";
+            string expectedResult = "hello world";
 
             // when
             string result = stringM.ToLower(originString);
