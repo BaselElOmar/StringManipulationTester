@@ -8,9 +8,6 @@ namespace CiCdgrupp
     public class StringsManipulation
     {
 
-
-
-
         public string ToUpper(string input)
         {
 
@@ -22,8 +19,5 @@ namespace CiCdgrupp
             originString = originString.ToLower();
             return originString;
         }
-
-
-
     }
 }
