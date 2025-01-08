@@ -14,10 +14,9 @@ namespace CiCdgrupp
             return input.ToUpper();
         }
 
-        public string ToLower(string originString)
+        public string ToLower(string input)
         {
-            originString = originString.ToLower();
-            return originString;
+            return input.ToLower();
         }
     }
 }
